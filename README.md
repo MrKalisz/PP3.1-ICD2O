@@ -1,35 +1,42 @@
-# Instructions  
+# Practice Problem 3.1
 
-# Practice Problem 2.1
+1.
+Ask the user to input an integer. Write a while loop that will print out the numbers starting at 1 and ending at the input inclusive.  The numbers printed should all be on the same line separated by a space.The last number should not have a space after it and should have a new line.
+Sample inputs/outputs:
 
-1. The variable _num_ holds an integer from user input  Write a conditional statement that does the following:
-
-- If num is even (divisible by 2), print "__ is even"
-- If num is odd, print "__ is odd"
-
-Examples:
 
 ```
-In: 23
-23 is odd
-```
-```
-In: 36
-36 is even
+In: 5
+1 2 3 4 5
 ```
 
-2. The variable _name_ holds a String from user input.  Write a conditional statement that does the following:
-
-- If name is equal to "Kalisz", print "teacher"
-- For any other input, print "student"
-
-Examples:
+```
+In: 10
+1 2 3 4 5 6 7 8 9 10
+```
 
 ```
-In: Kalisz
-teacher
+In: -5
 ```
+
+(no output) 
+
+2.
+Ask the user to input an integer.Write a while loop that will print out the numbers starting at 0 and ending at twice the end number exclusive.  Each number should be on the same line, separated by a space. The last number should not have a space after it and should have a new line. Sample inputs/outputs:
+
 ```
-In: Faa
-student
+In: 5
+0 1 2 3 4 5 6 7 8 9
 ```
+
+```
+In: 10
+0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19
+```
+
+```
+In: -5
+```
+
+(no output)    
+ 
